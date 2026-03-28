@@ -39,7 +39,7 @@ Ao interagir com a tela, o cliente não precisa avisar a agência. O sistema atu
 
 # Prompts
 
-O prompt inicial realizado para o Lovable foi o seguinte:
+**Prompt 1 (3:14):**
 
 ```text
 Crie um aplicativo web com nome 'Fast Approve' focado em resolver o problema de agências de marketing que precisam de aprovação rápida de conteúdo em tempo real. O app não deve ter sistema de autenticação, usando uma arquitetura de rotas separadas para dividir os papéis de Agência e Cliente.
@@ -85,4 +85,9 @@ Ative a integração nativa com o Supabase e crie a tabela posts com a seguinte 
 Configuração do Webhook (n8n):
 Na função fetch que dispara o aviso de aprovação/ajuste na Rota 2, crie uma variável chamada VITE_N8N_WEBHOOK_URL para que eu possa colocar o link do meu n8n nas variáveis de ambiente depois. O payload (JSON) desse POST deve enviar o ID do post, o Nome do Cliente, o Status atualizado e o Feedback (se houver).
 
+```
+**Prompt 2 (1:20):**
+
+```text
+Agora, adicione uma funcionalidade para que seja possível apagar posts
 ```
