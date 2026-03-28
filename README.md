@@ -1,6 +1,10 @@
 # Teste Técnico Human Academy
 Documentação do teste e dos prompts feitos para a Lovable IA sobre o teste técnico para vaga de Vibecoding na empresa Human Academy
 
+Site Lovable: https://fast-approver.lovable.app
+<br>
+<br>
+
 ## Fast Approve
 Uma solução assíncrona, login-less e em tempo real para aprovação de criativos e campanhas de Social Media entre agências e clientes.
 <br>
@@ -10,12 +14,10 @@ Uma solução assíncrona, login-less e em tempo real para aprovação de criati
 <br>
 <br>
 
-Site Lovable: https://fast-approver.lovable.app
-<br>
-<br>
-
 ## A Ideia
 O Fast Approve é um aplicativo web projetado para facilitar a relação entre o time de Criação (Designers e Social Medias) e o Cliente final. Ele substitui a informalidade e a desorganização das aprovações por aplicativos de mensagens com um fluxo estruturado.
+<br>
+<br>
 
 ## O Problema 
 A rotina de aprovação de criativos e copys em agências de publicidade pode ser caótica e descentralizada quando realizada apenaspor mensagens.
@@ -24,6 +26,8 @@ Dessa forma, o fluxo padrão pode apresentar falhas como:
 - Perda de Histórico: Peças de design são enviadas por WhatsApp, e os pedidos de alteração (ex: "Aumenta a logo", "Muda a data do evento na legenda") se perdem em áudios ou mensagens informais.
 - Falta de Rastreabilidade: Não há um painel claro para a agência saber o que está travando a pauta de publicações da semana.
 - Barreira de Adoção: Ferramentas de mercado tradicionais exigem que o cliente crie contas, decore senhas ou baixe aplicativos apenas para dar um "Ok" em uma arte de Instagram, o que gera frustração e atrasos.
+<br>
+<br>
 
 ## A Solução
 Para resolver esse problema, o app conta com uma arquitetura focada inteiramente na experiência do usuário de ambas as pontas, baseada em Magic Links únicos.
@@ -36,6 +40,8 @@ O cliente recebe o link e acessa uma interface simples e imersiva. Sem menus com
 
 3. Automação de Fechamento:
 Ao interagir com a tela, o cliente não precisa avisar a agência. O sistema atualiza o banco de dados e dispara um Webhook integrado ao n8n, que formata e envia um e-mail dinâmico automático para a equipe de criação informando o resultado da avaliação.
+<br>
+<br>
 
 # Prompts
 
